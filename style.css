@@ -1,0 +1,202 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+
+### Accent
+
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Light Red (error): hsl(0, 100%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 14px
+
+### Headings, Call-to-actions, Header Navigation
+
+- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
+- Weights: 400, 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
+*/
+
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/*************************Top Nav*******************************/
+.topNav {
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 70px 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.topNav .menu a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 60px;
+}
+
+.topNav a:hover {
+    color: yellow;
+}
+
+
+/*************************Header*******************************/
+.header {
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: #ffffff;
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.header img {
+    margin: 0 auto;
+}
+
+.header h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 160%;
+    margin: 60px auto auto auto;
+    width: 720px;
+
+}
+
+.header span {
+    line-height: 160%;
+    margin: 60px auto auto auto;
+    width: 410px;
+}
+
+.header button {
+    border: none;
+    border-radius: 40px;
+    margin: 39px auto 170px auto ;
+    padding: 25px 95px 22px;
+    width: 280px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700 ;
+    color: #ffffff;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
+}
+
+/*************************Services*******************************/
+.services {
+    background-color: hsl(218, 28%, 13%);
+}
+.haut , .bas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    width: 920px;
+
+}
+
+.haut h3 , .bas h3 {
+    line-height: 250%;
+}
+
+.item {
+    padding: 40px;
+    width: 50%;
+}
+
+/*************************Productive*******************************/
+
+.productive {
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    padding-top: 150px;
+    margin: 0 auto;
+    
+}
+
+.left, .right {
+    color:#ffffff;
+    margin: 0 auto;
+    width: 620px;
+}
+
+.right {
+    margin: auto auto auto 0;
+}
+
+.lien {
+    display: flex;
+}
+.lien a {
+    color: #5e9192;
+    padding-right: 9px;
+}
+
+.productive h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 160%;
+}
